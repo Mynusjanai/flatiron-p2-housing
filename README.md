@@ -1,4 +1,4 @@
-![seattle banner](./images/king_county_overview.jpg)<br><br>
+![seattle banner](./img/king_county_overview.jpg)<br><br>
 
 # King County, Washington Housing Prices Predictions
 **Author**: [Chaz](https://github.com/Mynusjanai)<br><br>
@@ -35,7 +35,7 @@
 
 ## A Look at Some Features
 
-![age of home built](./images/age_built.png)<br><br>
+![age of home built](./img/age_built.png)<br><br>
 
 **Key Takeaways:** <br><br>
 - Examining the prices homes have sold for according to their age, shows younger homes and older homes selling for much higher prices than those in the past 30-70 years.<br><br>
@@ -43,7 +43,7 @@
 - This may be to older homes’ build quality, vintage style and flair, or larger land plots. Younger homes may tend to have newer appliances, integrated technology (ie. smart homes), more outlandish architecture techniques, and resistance against regional natural disasters like earthquakes.<br><br>
 
 
-![grade vs price](./images/grade_vs_price_rev.png)<br><br>
+![grade vs price](./img/grade_vs_price_rev.png)<br><br>
 
 **Key Takeaways:** <br><br>
 - We can clearly see a distinct association between the grade of a property, vs the price it fetched. Initial OLS linear regression models show that the top 3 ratings boost the sale price of properties by an average of $106,000, while lower ratings can depreciate the sale values. ANOVA statistical tests also confirm these insights.<br><br>
@@ -70,7 +70,7 @@
 
 - **Grade and Location is Crucial.** The grade of a property in relation to its location has shown to be a large determining factor of the property's selling price.<br><br>
 
-![grade ranking](./images/grade_ranking.png)<br><br>
+![grade ranking](./img/grade_ranking.png)<br><br>
 
 - **Tiny Details Matter.** Things such as the view a property has, its proximity to water, as well as the amount of bathrooms and whether or not they were renovated hold weight. The age of the home has also shown to skew towards older, more classic homes and newer, perhaps more technologically advanced homes with integrated smart systems.<br><br>
 
