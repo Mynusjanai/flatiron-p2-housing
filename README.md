@@ -1,7 +1,7 @@
 ![seattle banner](./img/king_county_overview.jpg)<br><br>
 
 # King County, Washington Housing Prices Predictions
-**Author**: [Chaz](https://github.com/Mynusjanai)<br><br>
+**Author**: [Chaz Frazer](https://github.com/Mynusjanai)<br><br>
 
 
 
@@ -47,7 +47,7 @@
 
 ![age of home built](./img/age_built.png)<br><br>
 
-**Key Takeaways:** <br><br>
+**Key Takeaways:** <br>
 - Examining the prices homes have sold for according to their age, shows younger homes and older homes selling for much higher prices than those in the past 30-70 years.<br>
 
 - This may be to older homes’ build quality, vintage style and flair, or larger land plots. Younger homes may tend to have newer appliances, integrated technology (ie. smart homes), more outlandish architecture techniques, and resistance against regional natural disasters like earthquakes.<br><br>
@@ -55,7 +55,7 @@
 
 ![grade vs price](./img/grade_vs_price_rev.png)<br><br>
 
-**Key Takeaways:** <br><br>
+**Key Takeaways:** <br>
 - We can clearly see a distinct association between the grade of a property, vs the price it fetched. Initial OLS linear regression models show that the top 3 ratings boost the sale price of properties by an average of $106,000, while lower ratings can depreciate the sale values. ANOVA statistical tests also confirm these insights.<br>
 
 - Key takeaways from this is to dive a bit deeper into the grading system, and potentially isolate the best grades from those that perform worse. There may be a relationship to the square footage of the home, number of beds/baths, condition, and other factors that are holding these homes back or making them undesirable <br><br>
