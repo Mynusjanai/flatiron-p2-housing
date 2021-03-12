@@ -95,12 +95,14 @@ For additional info, contact the author of this project, [Chaz Frazer](https://g
 ## Github Repository Structure
 
 ```
+├── .ipynb_checkpoints
 ├── data
 ├── img
 ├── trials
 │   ├── holdout_notebook.ipynb
 │   ├── phase_2_project_workbook.ipynb  
+├── .gitignore
+├── README.md
 ├── final_housing_notebook.ipynb
 ├── kc_wash_analysis.pptx
-├── README.md
 ```
