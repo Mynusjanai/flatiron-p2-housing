@@ -37,9 +37,10 @@
 
 - **condition:** Value unknown if higher = better or reverse.<br>
 
-- **was_reno:** Whether or not the home was renovated. Stronger correlation to price than the actual year a home had work done, or how long its been since the last renovation.<br>
+- **was_reno:** Whether or not the home was renovated. Stronger correlation to price than the actual year a home had work done, or how long it’s been since the last renovation.<br>
 
 - **zipcode:** Homes to the north of the county come in at a higher sale price than others. Deeper dive into features of these homes and amenities could prove even more fruitful in analysis and pricing predictions.<br><br>
+
 
 
 
@@ -50,7 +51,7 @@
 **Key Takeaways:** <br>
 - Examining the prices homes have sold for according to their age, shows younger homes and older homes selling for much higher prices than those in the past 30-70 years.<br>
 
-- This may be to older homes’ build quality, vintage style and flair, or larger land plots. Younger homes may tend to have newer appliances, integrated technology (ie. smart homes), more outlandish architecture techniques, and resistance against regional natural disasters like earthquakes.<br><br>
+- This may be to older homes’ build quality, vintage style, and flair, or larger land plots. Younger homes may tend to have newer appliances, integrated technology (ie. smart homes), more outlandish architecture techniques, and resistance against regional natural disasters like earthquakes.<br><br>
 
 
 ![grade vs price](./img/grade_vs_price_rev.png)<br><br>
@@ -58,7 +59,7 @@
 **Key Takeaways:** <br>
 - We can clearly see a distinct association between the grade of a property, vs the price it fetched. Initial OLS linear regression models show that the top 3 ratings boost the sale price of properties by an average of $106,000, while lower ratings can depreciate the sale values. ANOVA statistical tests also confirm these insights.<br>
 
-- Key takeaways from this is to dive a bit deeper into the grading system, and potentially isolate the best grades from those that perform worse. There may be a relationship to the square footage of the home, number of beds/baths, condition, and other factors that are holding these homes back or making them undesirable <br><br>
+- Key takeaway from this is to dive a bit deeper into the grading system, and potentially isolate the best grades from those that perform worse. There may be a relationship to the square footage of the home, number of beds/baths, condition, and other factors that are holding these homes back or making them undesirable <br><br>
 
 
 
@@ -70,7 +71,7 @@
 
 - **Model Preparation:** Data techniques such as creating dummy variables, OLS summary models, and polynomial data will help serve our interpretation of our data when building our best models.<br>
 
-- **Predictive Modeling:** Various modeling techniques are implemented, including: Log, K-Best, Recursive Feature Elimination, and Polynomial modeling to determine the best fit in predicting our housing prices.<br><br>
+- **Predictive Modeling:** Various modeling techniques are implemented, including Log, K-Best, Recursive Feature Elimination, and Polynomial modeling to determine the best fit in predicting our housing prices.<br><br>
 
 
 
@@ -82,7 +83,7 @@
 
 ![grade ranking](./img/grade_ranking.png)<br><br>
 
-- **Tiny Details Matter.** Things such as the view a property has, its proximity to water, as well as the amount of bathrooms and whether or not they were renovated hold weight. The age of the home has also shown to skew towards older, more classic homes and newer, perhaps more technologically advanced homes with integrated smart systems.<br><br>
+- **Tiny Details Matter.** Things such as the view that a property has, its proximity to water, as well as the number of bathrooms and whether or not they were renovated hold weight. The age of the home has also been shown to skew towards older, more classic homes and newer, perhaps more technologically advanced homes with integrated smart systems.<br><br>
 
 
 ## For More Information
@@ -90,6 +91,7 @@
 See the full analysis in the [Jupyter Notebook](./final_housing_notebook.ipynb) or review this [presentation](./kc_wash_analysis.pptx).
 
 For additional info, contact the author of this project, [Chaz Frazer](https://github.com/Mynusjanai).<br><br>
+
 
 
 ## Github Repository Structure
